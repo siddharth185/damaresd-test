@@ -1,0 +1,7 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: This project creates an Alexa skill that provides a cloud-based service. The skill is authored in Node.js and hosted by AWS Lambda.
+
+Metadata:
+  IsWebsite: false
+
+!include snippets/package/codecommit/alexaskill.template
